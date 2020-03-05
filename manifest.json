@@ -1,0 +1,21 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Tinder Auto Liker 2020",
+  "description" : "Be like Bixby",
+  "version": "1.0.2",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "entry.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://www.google-analytics.com/",
+    "storage"
+  ],
+  "icons": {
+    "16": "tinder16.png",
+    "48": "tinder48.png",
+    "128": "tinder128.png"
+  }
+}
