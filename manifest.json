@@ -3,8 +3,8 @@
 
   "name": "Tinder Auto Liker 2020",
   "description" : "Be like Bixby",
-  "version": "1.0.2",
-  "manifest_version": 2,
+  "version": "0.0.0.1",
+  "manifest_version": 1,
   "browser_action": {
     "default_popup": "entry.html"
   },
