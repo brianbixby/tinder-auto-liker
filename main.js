@@ -5,13 +5,15 @@ function clickHandler() {
           alert("Go to tinder.com/app/recs first!");
         }
         setInterval(() => {
-            let likeButton = document.querySelectorAll('[aria-label="Like"]');
-            likeButton[0].click();
-            let keepSwiping = document.querySelectorAll('[aria-current="page"]');
-            if (keepSwiping[0]) {
-              keepSwiping[0].click()
+            let likeButton = document.querySelectorAll('.Bd > button.button');
+            if (likeButton && likeButton.length) {
+              likeButton[2].click();
             }
-        }, 50);
+            let keepSwiping = document.querySelectorAll('div.StretchedBox.CenterAlign > div > button.button.Ell');
+            if (keepSwiping && keepSwiping.length) {
+              keepSwiping[1].click();
+            }
+        }, 100);
       })()`});
   window.close();
 }

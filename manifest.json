@@ -9,9 +9,7 @@
     "default_popup": "entry.html"
   },
   "permissions": [
-    "activeTab",
-    "https://www.google-analytics.com/",
-    "storage"
+    "<all_urls>"
   ],
   "icons": {
     "16": "tinder16.png",
